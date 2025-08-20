@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache folders
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# Sessions folder - chat logs (optional, if you don't want to track logs)
+sessions/
+
+# Voices folder - TTS audio cache
+voices/
+
+# Large model files (optional - if you want to avoid committing large files)
+models/mistral-7b-instruct-v0.3/consolidated.safetensors
+models/mistral-7b-instruct-v0.3/tokenizer.model.v3
+
+# Temporary files
+*.tmp
+*.swp
+
+# Others
+*.bak
+*.orig
